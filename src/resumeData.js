@@ -48,22 +48,31 @@ let resumeData = {
         "skills" :[],
       },
     ],
-    "skillsDescription":"Your skills here",
+    "skillsDescription":"I have experience in creating data-driven web applications, front-facing websites and mobile games on Android & iOS. My speciality lies in Microsoft technologies like C# and the .NET ecosystem. I am well-versed in SQL server database design & maintenance. I have experience in agile development methodologies, CI/CD tools such as Jenkins and mocking frameworks such as NUnit and MOQ.",
     "skills":[
       {
-        "skillname":"C#"
+        "skillname":"C#",
+        "skillid":"C"
       },
       {
-        "skillname":".Net Core"
+        "skillname":".Net Core",
+        "skillid":"netcore"
       },
       {
-        "skillname":"Reactjs"
+        "skillname":"React.js",
+        "skillid":"react"
       },
       {
-        "skillname":"HTML"
+        "skillname":"jQuery",
+        "skillid":"jQuery"
       },
       {
-        "skillname":"CSS"
+        "skillname":"HTML",
+        "skillid":"HTML"
+      },
+      {
+        "skillname":"CSS",
+        "skillid":"CSS"
       }
     ],
     "portfolio":[
@@ -71,23 +80,23 @@ let resumeData = {
         "name":"Horse Racing Results - Alexa Skill, Web API",
         "description":"Alexa Skill, Azure Function",
         "direction":"Right",
-        "imgurl":"images/profilepic.jpg"
+        "imgurl":"images/horseracingpic.jpg"
       },
       {
-        "name":"project2",
-        "description":"mobileapp",
+        "name":"Totally Odd - Number Game (Android / iOS)",
+        "description":"Android + iOS Game developed in Unity",
         "direction":"Left",
-        "imgurl":"images/portfolio/project.jpg"
+        "imgurl":"images/totallyOdd.jpg"
       },
       {
-        "name":"project3",
+        "name":"RPM Joinery & Maintenance",
         "description":"mobileapp", 
         "direction":"Right",
-        "imgurl":"images/portfolio/project2.png"
+        "imgurl":"images/rpmLogo.png"
       },
       {
-        "name":"project4",
-        "description":"mobileapp",
+        "name":"Person Portfolio Website",
+        "description":"node.JS, React.JS, HTML, SCSS, Bootstrap",
         "direction":"Left",
         "imgurl":"images/portfolio/phone.jpg"
       }

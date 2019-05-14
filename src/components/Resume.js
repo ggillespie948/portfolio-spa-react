@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Zoom from 'react-reveal/Zoom';
 export default  class Resume extends Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -72,23 +73,27 @@ export default  class Resume extends Component {
                {resumeData.skillsDescription}
                </p>
 
-   				<div className="bars">
+               <Zoom Right>
+            <div className="bars">
 
-   				   <ul className="skills">
-                {
-                  resumeData.skills && resumeData.skills.map((item) => {
-                    return(
-                      <li>
-                      <span className={`bar-expand ${item.skillname.toLowerCase()}`}>
-                      </span><em>{item.skillname}</em>
-                      </li>
-                    )
-                  })
-                }
+              <ul className="skills">
+                  {
+                    resumeData.skills && resumeData.skills.map((item) => {
+                      return(
+                        <li>
+                        <span className={`bar-expand ${item.skillid.toLowerCase()}`}>
+                        </span><em>{item.skillname}</em>
+                        </li>
+                      )
+                    })
+                  }
 
-   					</ul>
+              </ul>
 
-   				</div>
+            </div>
+                 
+                  </Zoom>
+
 
    			</div>
 
