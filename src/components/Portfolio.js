@@ -27,7 +27,6 @@ export default class Porfolio extends Component {
                   </div>
                   </Zoom>
                 </div>
-               
               )
             })
           }
