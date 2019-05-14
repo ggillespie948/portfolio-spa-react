@@ -68,23 +68,27 @@ let resumeData = {
     ],
     "portfolio":[
       {
-        "name":"project1",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "name":"Horse Racing Results - Alexa Skill, Web API",
+        "description":"Alexa Skill, Azure Function",
+        "direction":"Right",
+        "imgurl":"images/profilepic.jpg"
       },
       {
         "name":"project2",
         "description":"mobileapp",
+        "direction":"Left",
         "imgurl":"images/portfolio/project.jpg"
       },
       {
         "name":"project3",
-        "description":"mobileapp",  
+        "description":"mobileapp", 
+        "direction":"Right",
         "imgurl":"images/portfolio/project2.png"
       },
       {
         "name":"project4",
         "description":"mobileapp",
+        "direction":"Left",
         "imgurl":"images/portfolio/phone.jpg"
       }
     ],

@@ -5,8 +5,6 @@ export default class Header extends Component {
     var ReactRotatingText = require('react-rotating-text');
     return (
       <React.Fragment>
-       
-      
       <header id="home">
          <nav id="nav-wrap">
             <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
@@ -28,6 +26,7 @@ export default class Header extends Component {
             <div className="banner-text">
                <h1 className="responsive-headline"> {resumeData.name} </h1>
                <ReactRotatingText items={['Web Developer', 'Software Engineer', 'Games Developer', 'Dev Ops Engingeer']} />
+               
                <hr/>
                <ul className="social">
                   {
