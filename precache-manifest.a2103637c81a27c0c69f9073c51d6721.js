@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/portfolio-spa-react/static/js/runtime~main.ff35c88d.js"
   },
   {
-    "revision": "83acb4a8dc285b2def99",
-    "url": "/portfolio-spa-react/static/js/main.83acb4a8.chunk.js"
+    "revision": "e41ec454d4278329d24a",
+    "url": "/portfolio-spa-react/static/js/main.e41ec454.chunk.js"
   },
   {
     "revision": "7c1661cd19304614b361",
     "url": "/portfolio-spa-react/static/js/1.7c1661cd.chunk.js"
   },
   {
-    "revision": "83acb4a8dc285b2def99",
+    "revision": "e41ec454d4278329d24a",
     "url": "/portfolio-spa-react/static/css/main.1f8e2388.chunk.css"
   },
   {
-    "revision": "598b22a21b3c50f23dade1834a87d9ba",
+    "revision": "45e2e9b16638e830c78cbe5b8cd3d5f2",
     "url": "/portfolio-spa-react/index.html"
   }
 ];
