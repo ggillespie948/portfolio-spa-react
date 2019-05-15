@@ -39,7 +39,7 @@ let resumeData = {
       },
       {
         "CompanyName":"Freelance Developer",
-        "specialization":"Web development, Games development",
+        "specialization":"Web development, Game development",
         "MonthOfStarting":"May",
         "YearOfStarting":"2017",
         "MonthOfLeaving":"Present",
@@ -81,28 +81,33 @@ let resumeData = {
         "name":"Horse Racing Results - Alexa Skill, Web API",
         "description":"Alexa Skill, Azure Function",
         "direction":"Right",
-        "imgurl":"images/horseracingpic.jpg"
+        "imgurl":"./images/horseracingpic.jpg",
+        "tags":[{"name":"alexa"}, {"name":"azure functions"}],
+        "class":"blog-card"
       },
       {
         "key":"2",
-        "name":"Totally Odd - Number Game (Android / iOS)",
-        "description":"Android + iOS Game developed in Unity",
-        "direction":"Left",
-        "imgurl":"images/totallyOdd.jpg"
+        "name":"Totally Odd Number Game (Android / iOS)",
+        "description":"A ndroid + iOS Game developed ndroid + iOS Game developed ndroid + iOS Game developed in Unity",
+        "direction":"Right",
+        "imgurl":"images/totallyOdd.jpg",
+        "class":"blog-card alt"
       },
       {
         "key":"3",
         "name":"RPM Joinery & Maintenance",
         "description":"mobileapp", 
         "direction":"Right",
-        "imgurl":"images/rpmLogo.png"
+        "imgurl":"images/rpmLogo.png",
+        "class":"blog-card "
       },
       {
         "key":"4",
         "name":"Person Portfolio Website",
         "description":"node.JS, React.JS, HTML, SCSS, Bootstrap",
-        "direction":"Left",
-        "imgurl":"images/portfolio/phone.jpg"
+        "direction":"Right",
+        "imgurl":"images/portfolio/phone.jpg",
+        "class":"blog-card alt"
       }
     ],
     "testimonials":[

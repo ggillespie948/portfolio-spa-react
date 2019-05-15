@@ -13,39 +13,34 @@ export default class Porfolio extends Component {
           <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
           {
             resumeData.portfolio && resumeData.portfolio.map((item)=>{
+
+              const style = {
+              }
+
               return(
                 <div>
                 <br></br>
                   <Zoom Bottom>
-                  {/* <div className="cardolo">
-                    <div className="card-header">
-                    <h3>{item.name}</h3>
-                    <p>{item.description}</p>
-                    </div>
-                    <div className="card-body">
-                          <img className="profile-pic" src={`${item.imgurl}`}/>
-                    </div>
-                  </div> */}
-                    <div className="blog-card">
+                    <div className={item.class}>
     <div className="meta">
-      <div className="photo" ></div>
+      <div className="photo" style={{ backgroundImage: `url(${item.imgurl})`}}> </div>
       <ul className="details">
-        <li className="author"><a href="#">John Doe</a></li>
         <li className="date">Aug. 24, 2015</li>
         <li className="tags">
           <ul>
-            <li><a href="#">Learn</a></li>
-            <li><a href="#">Code</a></li>
-            <li><a href="#">HTML</a></li>
-            <li><a href="#">CSS</a></li>
+          {/* {item.map((item, index) => (
+          <ul>
+            {item.tags.map((company, index) =><li>{company}</li>)}
+          </ul>
+        ))} */}
           </ul>
         </li>
       </ul>
     </div>
     <div className="description">
-      <h1>Learning to Code</h1>
+      <h1>{item.name}</h1>
       <h2>Opening a door to the future</h2>
-      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.</p>
+      <p> {item.description} </p>
       <p className="read-more">
         <a href="#">Read More</a>
       </p>
