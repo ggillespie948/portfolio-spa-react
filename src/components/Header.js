@@ -25,7 +25,7 @@ export default class Header extends Component {
          <div className="row banner">
             <div className="banner-text">
                <h1 className="responsive-headline"> {resumeData.name} </h1>
-               <ReactRotatingText items={['Web Developer', 'Software Engineer', 'Games Developer', 'Dev Ops Engingeer']} />
+               <ReactRotatingText items={['Web Developer', 'Software Engineer', 'Games Developer', 'Dev Ops Engineer']} />
                
                <hr/>
                <ul className="social">
