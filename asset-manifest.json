@@ -1,13 +1,13 @@
 {
-  "main.css": "/ggillespie948/portfolio-spa-react/static/css/main.1f8e2388.chunk.css",
-  "main.js": "/ggillespie948/portfolio-spa-react/static/js/main.e6e4b6b9.chunk.js",
-  "main.js.map": "/ggillespie948/portfolio-spa-react/static/js/main.e6e4b6b9.chunk.js.map",
-  "static/js/1.7c1661cd.chunk.js": "/ggillespie948/portfolio-spa-react/static/js/1.7c1661cd.chunk.js",
-  "static/js/1.7c1661cd.chunk.js.map": "/ggillespie948/portfolio-spa-react/static/js/1.7c1661cd.chunk.js.map",
-  "runtime~main.js": "/ggillespie948/portfolio-spa-react/static/js/runtime~main.f233af6c.js",
-  "runtime~main.js.map": "/ggillespie948/portfolio-spa-react/static/js/runtime~main.f233af6c.js.map",
-  "static/css/main.1f8e2388.chunk.css.map": "/ggillespie948/portfolio-spa-react/static/css/main.1f8e2388.chunk.css.map",
-  "index.html": "/ggillespie948/portfolio-spa-react/index.html",
-  "precache-manifest.3be5142c3456b8a9b3a622e631451554.js": "/ggillespie948/portfolio-spa-react/precache-manifest.3be5142c3456b8a9b3a622e631451554.js",
-  "service-worker.js": "/ggillespie948/portfolio-spa-react/service-worker.js"
+  "main.css": "/portfolio-spa-react/static/css/main.1f8e2388.chunk.css",
+  "main.js": "/portfolio-spa-react/static/js/main.83acb4a8.chunk.js",
+  "main.js.map": "/portfolio-spa-react/static/js/main.83acb4a8.chunk.js.map",
+  "static/js/1.7c1661cd.chunk.js": "/portfolio-spa-react/static/js/1.7c1661cd.chunk.js",
+  "static/js/1.7c1661cd.chunk.js.map": "/portfolio-spa-react/static/js/1.7c1661cd.chunk.js.map",
+  "runtime~main.js": "/portfolio-spa-react/static/js/runtime~main.ff35c88d.js",
+  "runtime~main.js.map": "/portfolio-spa-react/static/js/runtime~main.ff35c88d.js.map",
+  "static/css/main.1f8e2388.chunk.css.map": "/portfolio-spa-react/static/css/main.1f8e2388.chunk.css.map",
+  "index.html": "/portfolio-spa-react/index.html",
+  "precache-manifest.62383a1de8103c10fd6072d06ef47e34.js": "/portfolio-spa-react/precache-manifest.62383a1de8103c10fd6072d06ef47e34.js",
+  "service-worker.js": "/portfolio-spa-react/service-worker.js"
 }

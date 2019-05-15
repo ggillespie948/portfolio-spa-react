@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/ggillespie948/portfolio-spa-react/precache-manifest.3be5142c3456b8a9b3a622e631451554.js"
+  "/portfolio-spa-react/precache-manifest.62383a1de8103c10fd6072d06ef47e34.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/ggillespie948/portfolio-spa-react/index.html", {
+workbox.routing.registerNavigationRoute("/portfolio-spa-react/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
