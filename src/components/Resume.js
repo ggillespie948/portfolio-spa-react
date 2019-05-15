@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Zoom from 'react-reveal/Zoom';
+
 export default  class Resume extends Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -16,12 +17,12 @@ export default  class Resume extends Component {
               {
                 resumeData.education && resumeData.education.map((item)=>{
                   return(
-                    <div className="row item">
-                       <div className="twelve columns">
+                    <div className="row item" key={item.key}>
+                       <div className="twelve columns" key={item.key}>
                           <h3>{item.UniversityName}</h3>
-                          <p className="info">
+                          <p className="info" key={item.key}>
                           {item.specialization}
-                          <span>&bull;</span> <em className="date">{item.MonthOfPassing} {item.YearOfPassing}</em></p>
+                          <span>&bull;</span> <em className="date" key={item.key}>{item.MonthOfPassing} {item.YearOfPassing}</em></p>
                           <p>
                           {item.Achievements}
                           </p>

@@ -77,24 +77,28 @@ let resumeData = {
     ],
     "portfolio":[
       {
+        "key":"1",
         "name":"Horse Racing Results - Alexa Skill, Web API",
         "description":"Alexa Skill, Azure Function",
         "direction":"Right",
         "imgurl":"images/horseracingpic.jpg"
       },
       {
+        "key":"2",
         "name":"Totally Odd - Number Game (Android / iOS)",
         "description":"Android + iOS Game developed in Unity",
         "direction":"Left",
         "imgurl":"images/totallyOdd.jpg"
       },
       {
+        "key":"3",
         "name":"RPM Joinery & Maintenance",
         "description":"mobileapp", 
         "direction":"Right",
         "imgurl":"images/rpmLogo.png"
       },
       {
+        "key":"4",
         "name":"Person Portfolio Website",
         "description":"node.JS, React.JS, HTML, SCSS, Bootstrap",
         "direction":"Left",
