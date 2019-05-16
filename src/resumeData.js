@@ -79,27 +79,45 @@ let resumeData = {
       {
         "key":"1",
         "name":"Horse Racing Results - Alexa Skill, Web API",
-        "description":"Alexa Skill, Azure Function",
+        "description":"This project consisted of making a web scrape for live horse results, creating an API to distribute this data to an Alexa Skill end point.",
         "direction":"Right",
         "imgurl":"./images/horseracingpic.jpg",
-        "tags":[{"name":"alexa"}, {"name":"azure functions"}],
-        "class":"blog-card"
+        "tags":[{"name":"Alexa SDK"}, {"name":"Azure Functions"}, {"name":"C#"}, {"name":"Web API"}, {"name":"Serverless Architecture"}, {"name":".Net Core"}, {"name":"Automation"}],
+        "class":"blog-card",
+        "date":"May 2019",
+        "links":[
+          {"href":"https://www.amazon.co.uk/MGMComputing-Horse-Racing-Results/dp/B07RT3VPMS/ref=sr_1_2?keywords=horse+racing+results&qid=1558023774&s=digital-skills&sr=1-2-catcorr", "text":"View On Alexa Skill Store", "className":"info-link"},
+          {"href":"https://github.com/ggillespie948/horse-racing-results-scrape-alexa-api", "text":"", "className":"fa fa-2x fa-github info-link-github"},
+        ]
       },
       {
         "key":"2",
         "name":"Totally Odd Number Game (Android / iOS)",
-        "description":"A ndroid + iOS Game developed ndroid + iOS Game developed ndroid + iOS Game developed in Unity",
+        "description":"Solely worked with a Dundee-based client to release a new freemium mobile game that was based on an existing board game. Saw the project from conception to live operation over a 7-month period. ",
         "direction":"Right",
         "imgurl":"images/totallyOdd.jpg",
-        "class":"blog-card alt"
+        "tags":[{"name":"Unity"}, {"name":"Azure Playfab"}, {"name":"C#"}, , {"name":"Javascript"}, , {"name":"Dev Ops"}],
+        "class":"blog-card alt",
+        "date":"November 2018",
+        "links":[
+          {"href":"https://play.google.com/store/apps/details?id=com.ApexStudios.OddityAlpha&hl=en_GB", "text":"Google Play Store", "className":"info-link"},
+          {"href":"https://itunes.apple.com/us/app/totally-odd-number-game/id1437309450?mt=8", "text":"Apple App Store", "className":"info-link"},
+          {"href":"https://github.com/ggillespie948/totally-odd-number-game-android-ios-unity", "text":"", "className":"fa fa-2x fa-github info-link-github"},
+        ]
       },
       {
         "key":"3",
         "name":"RPM Joinery & Maintenance",
-        "description":"mobileapp", 
+        "description":"Created a website for Dundee-based joinery company RPM Joinery & Maintenance. The website displays previous projects and has a live contact form for enquiries. This web site has also been optimised for search engines.", 
         "direction":"Right",
         "imgurl":"images/rpmLogo.png",
-        "class":"blog-card "
+        "date":"June 2018",
+        "tags":[{"name":"ASP.NET"}, {"name":"Entityframework"}, {"name":"HTML5"}, {"name":"CSS"}, {"name":"jQuery"}, {"name":"SEO"}, {"name":"S3 Buckets"}, {"name":"AWS"}, {"name":"C#"}],
+        "class":"blog-card ",
+        "links":[
+          {"href":"https://www.rpmdundee.co.uk/", "text":"View Website", "className":"info-link-lg"},
+          {"href":"https://github.com/ggillespie948/rpm-joinery", "text":"", "className":"fa fa-2x fa-github info-link-github"},
+        ]
       },
       {
         "key":"4",
@@ -107,7 +125,11 @@ let resumeData = {
         "description":"node.JS, React.JS, HTML, SCSS, Bootstrap",
         "direction":"Right",
         "imgurl":"images/portfolio/phone.jpg",
-        "class":"blog-card alt"
+        "tags":[{"name":"React"}, {"name":"NPM"}, , {"name":"SCSS"}, , {"name":"Node.js"}, , {"name":"HTML"}, , {"name":"SEO"}],
+        "class":"blog-card alt",
+        "links":[
+          {"href":"https://github.com/ggillespie948/portfolio-spa-react", "text":"", "className":"fa fa-2x fa-github info-link-github"},
+        ]
       }
     ],
     "testimonials":[

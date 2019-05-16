@@ -13,39 +13,35 @@ export default class Porfolio extends Component {
           <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
           {
             resumeData.portfolio && resumeData.portfolio.map((item)=>{
-
-              const style = {
-              }
-
               return(
                 <div>
                 <br></br>
                   <Zoom Bottom>
                     <div className={item.class}>
-    <div className="meta">
-      <div className="photo" style={{ backgroundImage: `url(${item.imgurl})`}}> </div>
-      <ul className="details">
-        <li className="date">Aug. 24, 2015</li>
-        <li className="tags">
-          <ul>
-          {/* {item.map((item, index) => (
-          <ul>
-            {item.tags.map((company, index) =><li>{company}</li>)}
-          </ul>
-        ))} */}
-          </ul>
-        </li>
-      </ul>
-    </div>
-    <div className="description">
-      <h1>{item.name}</h1>
-      <h2>Opening a door to the future</h2>
-      <p> {item.description} </p>
-      <p className="read-more">
-        <a href="#">Read More</a>
-      </p>
-    </div>
-  </div>
+                    <div className="meta">
+                      <div className="photo" style={{ backgroundImage: `url(${item.imgurl})`}}> </div>
+                        <ul className="details">
+                          <li className="date">{item.date}</li>
+                          <li className="tags">
+                            <ul>
+                            {item.tags.map((c, i) => (
+                              <li className="badge" key={i}><a>{c.name}</a></li>   
+                            ))}
+                            </ul>
+                          </li>
+                        </ul>
+                    </div>
+                      <div className="description">
+                        <h1>{item.name}</h1>
+                        <p> {item.description} </p>
+                        <p className="read-more">
+                        {item.links.map((c, i) => (
+                          <a href={c.href} key={i} className={c.className} >{c.text} 
+                          </a> 
+                          ))}
+                          </p>
+                    </div>
+                    </div>
                   </Zoom>
                 </div>
               )

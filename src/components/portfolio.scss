@@ -5,9 +5,27 @@
   }
   
   $color_white: #fff;
-  $color_prime: #5ad67d;
+  $color_prime: #CC5200;
   $color_grey: #e2e2e2;
   $color_grey_dark: #a2a2a2;
+
+  $badge-text-color: #ffffff;
+$badge-default-bg: #2c3e50;
+
+  .badge {
+    box-sizing: border-box;
+    display: inline-block;
+    background-color: $badge-default-bg;
+    color: $badge-text-color;
+    
+    border-radius: 3rem; // As longe as this is bigger than the fontsize
+    text-align: center;
+
+    font-size: 1.6rem;
+    font-weight: 400;
+    padding: .05rem .8rem .1rem;
+    line-height: inherit;
+}
   
   .blog-card {
     display: flex;
@@ -67,7 +85,7 @@
       width: 100%;
       font-size: 1.5rem;
       a {
-        text-decoration: dotted underline
+        // text-decoration: dotted underline
       }
       ul li {
         display: inline-block;
