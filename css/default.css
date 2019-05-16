@@ -820,4 +820,34 @@ properly.
    }
  }
 
+ .info-link{
+    margin-right:50px;
+    color:#CC5200 !important;
+ }
+
+ .info-link-github{
+   color:#6e5494 !important;
+ }
+
+ .info-link-lg{
+   margin-right:150px;
+   color:#CC5200 !important;
+   text-align:center;
+}
+
+.info-link-github-lg{
+  color:#6e5494 !important;
+}
+
+.info-link-google-lg{
+   margin-right:150px;
+   color:#4285F4 !important;
+   text-align:center;
+ }
+
+ .info-link-apple-lg{
+   margin-right:150px;
+   color:#FFb900 !important;
+   text-align:center;
+ }
 
