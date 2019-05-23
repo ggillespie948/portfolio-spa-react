@@ -16,9 +16,9 @@ let resumeData = {
           "className":"fa fa-github"
         },
       ],
-    "aboutme":"I am currently a pre-final year student at The LNM Institute of Information Technology and pursuing my B.Tech from here. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
+    "aboutme":"I am a motivated and resourceful graduate software developer with experience in creating data-driven web applications, front-facing websites and mobile games on Android & iOS.  I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
     "address":"Scotland",
-    "website":"https://rbhatia46.github.io",
+    "website":"gzgillespie@outlook.com",
     "education":[
       {
         "UniversityName":"University of Dundee",
@@ -34,8 +34,7 @@ let resumeData = {
         "specialization":"Software Engineer",
         "MonthOfLeaving":"May",
         "YearOfLeaving":"2019",
-        "Achievements":"Worked to create bespoke IMS/CMS web applications. Along with the creation of data-driven information management systems also worked on several content management systems and front facing websites requiring website design, integration of various APIs",
-        "skills" :[],
+        "Achievements":"Worked to create bespoke IMS/CMS web applications. Along with the creation of data-driven information management systems also worked on several content management systems and front facing websites requiring website design, integration of various APIs"
       },
       {
         "CompanyName":"Freelance Developer",
@@ -44,8 +43,7 @@ let resumeData = {
         "YearOfStarting":"2017",
         "MonthOfLeaving":"Present",
         "YearOfLeaving":"",
-        "Achievements":"Worked to create bespoke IMS/CMS web applications. Along with the creation of data-driven information management systems also worked on several content management systems and front facing websites requiring website design, integration of various APIs",
-        "skills" :[],
+        "Achievements":"For the past two years I have undertaken a variety of different contract work across different areas of software development. I have created commercial websites for small business as well as worked on a much larger game development contract which was almost a year in development. I have released work across a broad scope of platforms and technologies and I am always interested in taking on new work and challenges."
       },
     ],
     "skillsDescription":"I have experience in creating data-driven web applications, front-facing websites and mobile games on Android & iOS. My speciality lies in Microsoft technologies like C# and the .NET ecosystem. I am well-versed in SQL server database design & maintenance. I have experience in agile development methodologies, CI/CD tools such as Jenkins and mocking frameworks such as NUnit and MOQ.",
@@ -112,7 +110,7 @@ let resumeData = {
         "direction":"Right",
         "imgurl":"images/rpmLogo.png",
         "date":"June 2018",
-        "tags":[{"name":"ASP.NET"}, {"name":"Entityframework"}, {"name":"HTML5"}, {"name":"CSS"}, {"name":"jQuery"}, {"name":"SEO"}, {"name":"S3 Buckets"}, {"name":"AWS"}, {"name":"C#"}],
+        "tags":[{"name":"ASP.NET"}, {"name":"Entity Framework"}, {"name":"HTML5"}, {"name":"CSS"}, {"name":"jQuery"}, {"name":"SEO"}, {"name":"S3 Buckets"}, {"name":"AWS"}, {"name":"C#"}],
         "class":"blog-card ",
         "links":[
           {"href":"https://www.rpmdundee.co.uk/", "text":"View Website", "className":"info-link-lg"},
@@ -134,12 +132,8 @@ let resumeData = {
     ],
     "testimonials":[
       {
-        "description":"This is a sample testimonial",
-        "name":"Some technical guy"
-      },
-      {
-        "description":"This is a sample testimonial",
-        "name":"Some technical guy"
+        "description":"Absolutely fantastic for learning kids to count mentally instead of using calculator on phone. Learning without realizing they are.",
+        "name":"Totally Odd Number Game Review"
       }
     ]
   }
