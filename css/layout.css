@@ -367,7 +367,7 @@ ul#nav li.current a { color: #F06000; }
 }
 
 .react{
-   width: 30%;
+   width: 50%;
    -moz-animation: react 2s ease;
    -webkit-animation: react 2s ease;
 }
